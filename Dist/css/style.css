@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #37172f, #dc9628);
+}
+
+.container {
+    background: repeating-linear-gradient(to left top, #272017, #272017 1px, #322b22 10px, #322b22 6px);
+    height: 300px;
+    width: 280px;
+    border-top: 5px solid #fbc400;
+}
+
+.top {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    text-transform: capitalize;
+}
+
+.sign {
+    font-size: 20px;
+}
+
+.create {
+    margin-top: 25px;
+    font-size: 13px;
+}
+
+
+/* .login {
+    background-color: #ffc600;
+    width: 80%;
+    border: 0;
+    color: white;
+    margin: 0 auto;
+    appearance: none;
+} */
+
+.user {
+    width: 80%;
+    border: 0;
+    color: white;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.user input {
+    background-color: #ffc600;
+    width: 100%;
+    height: 30px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding-left: 40px;
+    border: 0;
+}
+
+span {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    z-index: 10;
+    padding: 7px 0 0 10px;
+}
+
+.password {
+    width: 80%;
+    border: 0;
+    color: white;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.password input {
+    background-color: #ffc600;
+    width: 100%;
+    height: 30px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding-left: 40px;
+    border: 0;
+}
+
+::placeholder {
+    color: white;
+}
+
+.bottom {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.forgot {
+    text-decoration: none;
+    text-transform: capitalize;
+    margin-top: 45px;
+    font-size: 10px; 
+    color: white;
+    float: left;
+    margin-left: 40px;
+}
+
+.button {
+    float: left;
+    width: 120px;
+    margin: 35px 0 0 15px;
+    background-color: rgb(41, 41, 41);
+    color: grey;
+    height: 40px;
+    font-size: small;
+    border: 0;
+}
+    
+.button:hover{
+    background-color: #ffc600;
+    cursor: pointer;
+    transition: 0.7s ease-in-out;
+}
+
+.arrow {
+    color: grey;
+    padding-top: 47px;
+    padding-left: 20px;
+}
